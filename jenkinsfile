@@ -4,19 +4,19 @@ agent any
  
         stage('Clone Code') { 
             steps { 
-                git branch: 'main', url: 'https://github.com/kabil164/jenkins-demo.git' 
+                git branch: 'main', url:https://github.com/aarthiganesan2805-web/jenkins-demoo/blob/main/aarthi.java
             } 
         } 
  
         stage('Compile Code') { 
             steps { 
-                bat 'javac demo.java' 
+                bat 'javac aarthi.java' 
             } 
         } 
  
         stage('Run Code') { 
             steps { 
-                bat 'java demo' 
+                bat 'java aarthi' 
             } 
         } 
  
